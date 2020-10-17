@@ -28,9 +28,13 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.css",             
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -123,6 +127,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "RecipePaymentGateway"
+    }
+  },
+  "defaultProject": "RecipePaymentGateway",
+  "cli": {
+    "analytics": "2e7bdcb1-91f4-4bcc-8424-f0dfc5a71a2a"
+  }
 }

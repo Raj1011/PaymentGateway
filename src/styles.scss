@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+}
+.card-container{
+    width: 50%;
+}
+
+.list-recipe img{
+    height: 200px;
+    width: 100%;
+}
+
+.list-recipe .card{
+    margin: 15px 0px 15px 0px;
+}
