@@ -12,7 +12,7 @@ export class OtpScreenComponent implements OnInit {
 
   otpForm: FormGroup
   submitted: boolean = false;
-  constructor(private activeModal: NgbActiveModal,
+  constructor(public activeModal: NgbActiveModal,
     private fb: FormBuilder,
     private router: Router) { }
 
